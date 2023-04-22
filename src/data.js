@@ -1,46 +1,46 @@
 import React from "react";
-// import {
-//   FaBehance,
-//   FaFacebook,
-//   FaLinkedin,
-//   FaTwitter,
-//   FaSketch,
-//   FaHome,
-//   FaUserFriends,
-//   FaFolderOpen,
-//   FaCalendarAlt,
-//   FaWpforms,
-// } from 'react-icons/fa';
+import {
+  FaBehance,
+  FaFacebook,
+  FaLinkedin,
+  FaTwitter,
+  FaSketch,
+  FaHome,
+  FaUserFriends,
+  FaFolderOpen,
+  FaCalendarAlt,
+  FaWpforms,
+} from "react-icons/fa";
 export const links = [
   {
     id: 1,
     url: "/",
     text: "home",
-    // icon: <FaHome />,
+    icon: <FaHome />,
   },
   {
     id: 2,
     url: "/team",
     text: "team",
-    // icon: <FaUserFriends />,
+    icon: <FaUserFriends />,
   },
   {
     id: 3,
     url: "/projects",
     text: "projects",
-    // icon: <FaFolderOpen />,
+    icon: <FaFolderOpen />,
   },
   {
     id: 4,
     url: "/calendar",
     text: "calendar",
-    // icon: <FaCalendarAlt />,
+    icon: <FaCalendarAlt />,
   },
   {
     id: 5,
     url: "/documents",
     text: "documents",
-    // icon: <FaWpforms />,
+    icon: <FaWpforms />,
   },
 ];
 
